@@ -1,5 +1,5 @@
-import React, { useState, useRef } from "react";
-import { Container, Form, Col, Button } from "react-bootstrap";
+import React, { useState } from "react";
+import { Container, Form, Col } from "react-bootstrap";
 export default function AddRecipeForm() {
   const [values, setValues] = useState({ val: [] });
   const [instructions, setInstructions] = useState({ instr: [] });
